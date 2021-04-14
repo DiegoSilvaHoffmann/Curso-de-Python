@@ -1,0 +1,5 @@
+n1 = int(input('Digite o numero que voce quer saber o Dobro, triplo e raiz quadrada: '))
+d = int(n1 * 2)
+t = int(n1 * 3)
+r = (n1 ** (1/2))
+print('O numero digitado foi {}.\nSeu dobro é {}.\nSeu triplo é {}.\nSua raiz quadrada é {:.3f}.'.format(n1, d, t, r))
